@@ -1,0 +1,260 @@
+{
+  "start-time" : "2019-10-27T18:19:24.937",
+  "akka-version" : "Unknown RP version, based on 2.5.21",
+  "classpath" : "/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/job-1/target/78f6e382/loyalty_2.12-0.1-SNAPSHOT.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/7663f74e/scala-library-2.12.4.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/1e6f1e74/scala-java8-compat_2.12-0.8.0.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/0f9e8157/spray-json_2.12-1.3.4.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/3e8ce443/akka-cluster_2.12-2.5.21.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/9d7a0ee0/akka-remote_2.12-2.5.21.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/7df4cee7/akka-actor_2.12-2.5.21.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/4b68c2d5/config-1.3.3.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/307ed39c/akka-stream_2.12-2.5.21.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/84cad0e7/akka-protobuf_2.12-2.5.21.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/323964c3/reactive-streams-1.0.2.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/78a93560/ssl-config-core_2.12-0.3.7.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/29b4158f/scala-parser-combinators_2.12-1.1.1.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/18ed04a0/netty-3.10.6.Final.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/fc17bd81/aeron-driver-1.15.1.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/05601475/agrona-0.9.31.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/a608caaa/aeron-client-1.15.1.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/b0830a5c/akka-cluster-sharding_2.12-2.5.21.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/c1fc1d09/akka-distributed-data_2.12-2.5.21.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/26dc554a/lmdbjava-0.6.1.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/31a7391a/jnr-ffi-2.1.7.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/5c1149df/jffi-1.2.16.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/3c1f0edf/jffi-1.2.16-native.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/dcc2193d/asm-5.0.3.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/a7111830/asm-commons-5.0.3.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/287749b4/asm-tree-5.0.3.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/c7126ade/asm-analysis-5.0.3.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/1512e557/asm-util-5.0.3.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/006936bb/jnr-x86asm-1.0.2.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/33f23994/jnr-constants-0.9.9.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/8d7e70b7/akka-persistence_2.12-2.5.21.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/8e9c8a98/akka-cluster-tools_2.12-2.5.21.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/c8208d7c/akka-management_2.12-0.20.0.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/360d4762/akka-http_2.12-10.0.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/78e0774d/akka-http-core_2.12-10.0.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/5074b107/akka-parsing_2.12-10.0.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/af77cf2d/akka-http-spray-json_2.12-10.0.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/79f7bec9/akka-management-cluster-http_2.12-0.20.0.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/2cef27e9/akka-diagnostics_2.12-1.1.7.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/6c6c702c/commons-lang3-3.5.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/9de77f9e/akka-split-brain-resolver_2.12-1.1.7.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/7f8ba1ea/akka-slf4j_2.12-2.5.21.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/da76ca59/slf4j-api-1.7.25.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/7c4f3c47/logback-classic-1.2.3.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/86434440/logback-core-1.2.3.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/2658f044/cinnamon-akka_2.12-2.10.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/f9231cb8/cinnamon-scala_2.12-2.10.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/6933539e/cinnamon-core_2.12-2.10.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/202fb0c1/cinnamon-common-2.10.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/68e9aef8/cinnamon-akka-http_2.12-2.10.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/8cdcd413/cinnamon-jvm-metrics-producer_2.12-2.10.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/4a03aa38/cinnamon-prometheus_2.12-2.10.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/56f8b574/simpleclient-0.1.0.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/0865faef/cinnamon-prometheus-httpserver_2.12-2.10.13.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/6ec50e0e/simpleclient_httpserver-0.1.0.jar:/C:/Users/Alexander%20Sergeenko/AppData/Local/Temp/sbt_99467fd1/target/2e9382da/simpleclient_common-0.1.0.jar:/C:/Users/Alexander%20Sergeenko/.ivy2/cache/com.lightbend.cinnamon/cinnamon-agent/jars/cinnamon-agent-2.10.13.jar",
+  "configuration-warnings" : [],
+  "system-metrics" : {
+    "heap-init" : 201326592,
+    "heap-max" : 2843213824,
+    "heap-used" : 46868032,
+    "heap-committed" : 222298112,
+    "os-processors" : 8,
+    "mem-pool-0" : {
+      "name" : "Code Cache",
+      "type" : "Non-heap memory",
+      "init" : 2555904,
+      "max" : 251658240,
+      "used" : 10318208,
+      "committed" : 11141120
+    },
+    "mem-pool-1" : {
+      "name" : "Metaspace",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : -1,
+      "used" : 36129648,
+      "committed" : 38977536
+    },
+    "mem-pool-2" : {
+      "name" : "Compressed Class Space",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : 1073741824,
+      "used" : 5084504,
+      "committed" : 5423104
+    },
+    "mem-pool-3" : {
+      "name" : "PS Eden Space",
+      "type" : "Heap memory",
+      "init" : 50331648,
+      "max" : 1045954560,
+      "used" : 31403808,
+      "committed" : 99614720
+    },
+    "mem-pool-4" : {
+      "name" : "PS Survivor Space",
+      "type" : "Heap memory",
+      "init" : 8388608,
+      "max" : 8388608,
+      "used" : 0,
+      "committed" : 8388608
+    },
+    "mem-pool-5" : {
+      "name" : "PS Old Gen",
+      "type" : "Heap memory",
+      "init" : 134217728,
+      "max" : 2132279296,
+      "used" : 15464224,
+      "committed" : 114294784
+    }
+  },
+  "configuration" : {
+    "akka" : {
+        "http" : {
+            "server" : {
+                "default-http-port" : "8001",
+                "server-header" : "akka-http/10.0.13"
+            },
+            "version" : "10.0.13"
+        },
+        "loggers" : [
+            "akka.event.slf4j.Slf4jLogger"
+        ],
+        "logging-filter" : "akka.event.slf4j.Slf4jLoggingFilter",
+        "loglevel" : "DEBUG",
+        "management" : {
+            "http" : {
+                "port" : "8559"
+            }
+        },
+        "remote" : {
+            "artery" : {
+                "canonical" : {
+                    "port" : "2552"
+                }
+            }
+        },
+        "version" : "2.5.21"
+    },
+    "awt" : {
+        "toolkit" : "sun.awt.windows.WToolkit"
+    },
+    "cinnamon" : {
+        "akka" : {
+            "actors" : {
+                "/system/sharding/*" : {
+                    "report-by" : "class"
+                },
+                "/user/*" : {
+                    "report-by" : "class"
+                }
+            },
+            "cluster" : {
+                "node-metrics" : "on",
+                "shard-region-info" : "on"
+            },
+            "dispatchers" : {
+                "basic-information" : {
+                    "names" : [
+                        "*"
+                    ]
+                },
+                "time-information" : {
+                    "names" : [
+                        "*"
+                    ]
+                }
+            },
+            "http" : {
+                "servers" : {
+                    "*:*" : {
+                        "paths" : {
+                            "*" : {
+                                "metrics" : "on"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "prometheus" : {
+            "exporters" : [
+                "http-server"
+            ],
+            "http-server" : {
+                "host" : "0.0.0.0",
+                "port" : "9002"
+            }
+        }
+    },
+    "excluded-sensitive-paths" : [
+        "user.home",
+        "user.dir",
+        "user.name"
+    ],
+    "file" : {
+        "encoding" : {
+            "pkg" : "sun.io"
+        },
+        "separator" : "\\"
+    },
+    "java" : {
+        "awt" : {
+            "graphicsenv" : "sun.awt.Win32GraphicsEnvironment",
+            "printerjob" : "sun.awt.windows.WPrinterJob"
+        },
+        "class" : {
+            "path" : "C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\job-1\\target\\78f6e382\\loyalty_2.12-0.1-SNAPSHOT.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\7663f74e\\scala-library-2.12.4.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\1e6f1e74\\scala-java8-compat_2.12-0.8.0.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\0f9e8157\\spray-json_2.12-1.3.4.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\3e8ce443\\akka-cluster_2.12-2.5.21.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\9d7a0ee0\\akka-remote_2.12-2.5.21.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\7df4cee7\\akka-actor_2.12-2.5.21.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\4b68c2d5\\config-1.3.3.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\307ed39c\\akka-stream_2.12-2.5.21.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\84cad0e7\\akka-protobuf_2.12-2.5.21.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\323964c3\\reactive-streams-1.0.2.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\78a93560\\ssl-config-core_2.12-0.3.7.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\29b4158f\\scala-parser-combinators_2.12-1.1.1.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\18ed04a0\\netty-3.10.6.Final.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\fc17bd81\\aeron-driver-1.15.1.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\05601475\\agrona-0.9.31.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\a608caaa\\aeron-client-1.15.1.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\b0830a5c\\akka-cluster-sharding_2.12-2.5.21.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\c1fc1d09\\akka-distributed-data_2.12-2.5.21.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\26dc554a\\lmdbjava-0.6.1.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\31a7391a\\jnr-ffi-2.1.7.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\5c1149df\\jffi-1.2.16.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\3c1f0edf\\jffi-1.2.16-native.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\dcc2193d\\asm-5.0.3.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\a7111830\\asm-commons-5.0.3.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\287749b4\\asm-tree-5.0.3.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\c7126ade\\asm-analysis-5.0.3.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\1512e557\\asm-util-5.0.3.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\006936bb\\jnr-x86asm-1.0.2.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\33f23994\\jnr-constants-0.9.9.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\8d7e70b7\\akka-persistence_2.12-2.5.21.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\8e9c8a98\\akka-cluster-tools_2.12-2.5.21.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\c8208d7c\\akka-management_2.12-0.20.0.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\360d4762\\akka-http_2.12-10.0.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\78e0774d\\akka-http-core_2.12-10.0.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\5074b107\\akka-parsing_2.12-10.0.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\af77cf2d\\akka-http-spray-json_2.12-10.0.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\79f7bec9\\akka-management-cluster-http_2.12-0.20.0.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\2cef27e9\\akka-diagnostics_2.12-1.1.7.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\6c6c702c\\commons-lang3-3.5.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\9de77f9e\\akka-split-brain-resolver_2.12-1.1.7.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\7f8ba1ea\\akka-slf4j_2.12-2.5.21.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\da76ca59\\slf4j-api-1.7.25.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\7c4f3c47\\logback-classic-1.2.3.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\86434440\\logback-core-1.2.3.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\2658f044\\cinnamon-akka_2.12-2.10.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\f9231cb8\\cinnamon-scala_2.12-2.10.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\6933539e\\cinnamon-core_2.12-2.10.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\202fb0c1\\cinnamon-common-2.10.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\68e9aef8\\cinnamon-akka-http_2.12-2.10.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\8cdcd413\\cinnamon-jvm-metrics-producer_2.12-2.10.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\4a03aa38\\cinnamon-prometheus_2.12-2.10.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\56f8b574\\simpleclient-0.1.0.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\0865faef\\cinnamon-prometheus-httpserver_2.12-2.10.13.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\6ec50e0e\\simpleclient_httpserver-0.1.0.jar;C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\sbt_99467fd1\\target\\2e9382da\\simpleclient_common-0.1.0.jar;C:\\Users\\Alexander Sergeenko\\.ivy2\\cache\\com.lightbend.cinnamon\\cinnamon-agent\\jars\\cinnamon-agent-2.10.13.jar",
+            "version" : "52.0"
+        },
+        "endorsed" : {
+            "dirs" : "C:\\Program Files\\Java\\jre1.8.0_211\\lib\\endorsed"
+        },
+        "ext" : {
+            "dirs" : "C:\\Program Files\\Java\\jre1.8.0_211\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext"
+        },
+        "home" : "C:\\Program Files\\Java\\jre1.8.0_211",
+        "io" : {
+            "tmpdir" : "C:\\Users\\ALEXAN~1\\AppData\\Local\\Temp\\"
+        },
+        "library" : {
+            "path" : "C:\\Program Files\\Java\\jre1.8.0_211\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Users\\Alexander Sergeenko\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Alexander Sergeenko\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\sbt\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Alexander Sergeenko\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl;."
+        },
+        "runtime" : {
+            "name" : "Java(TM) SE Runtime Environment",
+            "version" : "1.8.0_211-b12"
+        },
+        "specification" : {
+            "name" : "Java Platform API Specification",
+            "vendor" : "Oracle Corporation",
+            "version" : "1.8"
+        },
+        "vendor" : {
+            "url" : {
+                "bug" : "http://bugreport.sun.com/bugreport/"
+            }
+        },
+        "version" : "1.8.0_211",
+        "vm" : {
+            "info" : "mixed mode",
+            "name" : "Java HotSpot(TM) 64-Bit Server VM",
+            "specification" : {
+                "name" : "Java Virtual Machine Specification",
+                "vendor" : "Oracle Corporation",
+                "version" : "1.8"
+            },
+            "vendor" : "Oracle Corporation",
+            "version" : "25.211-b12"
+        }
+    },
+    "line" : {
+        "separator" : "\r\n"
+    },
+    "os" : {
+        "arch" : "amd64",
+        "name" : "Windows 10",
+        "version" : "10.0"
+    },
+    "path" : {
+        "separator" : ";"
+    },
+    "sun" : {
+        "arch" : {
+            "data" : {
+                "model" : "64"
+            }
+        },
+        "boot" : {
+            "class" : {
+                "path" : "C:\\Program Files\\Java\\jre1.8.0_211\\lib\\resources.jar;C:\\Program Files\\Java\\jre1.8.0_211\\lib\\rt.jar;C:\\Program Files\\Java\\jre1.8.0_211\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jre1.8.0_211\\lib\\jsse.jar;C:\\Program Files\\Java\\jre1.8.0_211\\lib\\jce.jar;C:\\Program Files\\Java\\jre1.8.0_211\\lib\\charsets.jar;C:\\Program Files\\Java\\jre1.8.0_211\\lib\\jfr.jar;C:\\Program Files\\Java\\jre1.8.0_211\\classes"
+            },
+            "library" : {
+                "path" : "C:\\Program Files\\Java\\jre1.8.0_211\\bin"
+            }
+        },
+        "cpu" : {
+            "endian" : "little",
+            "isalist" : "amd64"
+        },
+        "desktop" : "windows",
+        "io" : {
+            "unicode" : {
+                "encoding" : "UnicodeLittle"
+            }
+        },
+        "java" : {
+            "command" : "com.reactivebbq.loyalty.Main -Dakka.http.server.default-http-port=8001 -Dakka.remote.artery.canonical.port=2552 -Dakka.management.http.port=8559 -Dcinnamon.prometheus.http-server.port=9002",
+            "launcher" : "SUN_STANDARD"
+        },
+        "jnu" : {
+            "encoding" : "Cp1251"
+        },
+        "management" : {
+            "compiler" : "HotSpot 64-Bit Tiered Compilers"
+        },
+        "os" : {
+            "patch" : {
+                "level" : ""
+            }
+        }
+    },
+    "user" : {
+        "country" : "RU",
+        "language" : "ru",
+        "script" : "",
+        "timezone" : "Europe/Moscow",
+        "variant" : ""
+    }
+}
+}
+
